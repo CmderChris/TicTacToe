@@ -3,13 +3,20 @@
     text-align: center;
 }
 
-.row {
+.row > div {
     float: left;
-    clear: both;
     height: 100px;
+    width: 100px;
+}
+
+.row > div:hover {
+    cursor: pointer;
+}
+
+.row {
+    clear: both;
     width: 302px;
-    margin: 0;
-    align-content: center;
+    margin: auto;
 }
 
 .top {
