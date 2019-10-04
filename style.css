@@ -1,7 +1,7 @@
 
 body {
     background-color: rgb(226, 128, 218);
-    margin-top: 12em;
+    margin-top: 10em;
     font-family: 'Permanent Marker', cursive;
     color: rgb(21, 253, 253);
     text-align: center;
@@ -11,16 +11,18 @@ h1 {
     font-size: 5em;
 }
 
+#banner {
+    text-align: center;
+}
+
 .row > div {
     float: left;
     height: 100px;
     width: 100px;
     line-height: 100px;
     font-size: 4em;
-}
-
-.row > div:hover {
     cursor: pointer;
+    user-select: none;
 }
 
 .row {
