@@ -1,23 +1,22 @@
-#board {
-    padding: 2em;
-    text-align: center;
-    font-family: sans-serif;
-}
 
 body {
-    background-color: rgb(165, 165, 165);
+    background-color: rgb(226, 128, 218);
+    margin-top: 12em;
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(21, 253, 253);
+    text-align: center;
 }
 
 h1 {
-    color: rgb(17, 0, 114);
     font-size: 5em;
-    margin-bottom: 1em;
 }
 
 .row > div {
     float: left;
     height: 100px;
     width: 100px;
+    line-height: 100px;
+    font-size: 4em;
 }
 
 .row > div:hover {
@@ -31,14 +30,14 @@ h1 {
 }
 
 .top {
-    border-bottom: 1px rgb(139, 125, 46) solid;
+    border-bottom: 1px rgb(9, 240, 59) solid;
 }
 
 .center {
-    border-left: 1px rgb(139, 125, 46) solid;
-    border-right: 1px rgb(139, 125, 46) solid;
+    border-left: 1px rgb(9, 240, 59) solid;
+    border-right: 1px rgb(9, 240, 59) solid;
 }
 
 .bottom {
-    border-top: 1px rgb(139, 125, 46) solid;
+    border-top: 1px rgb(9, 240, 59) solid;
 }
